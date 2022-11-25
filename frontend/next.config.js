@@ -12,6 +12,7 @@ const rewritesConfig = require('./next.rewrites')
 const securityHeaders = require('./next.headers')
 
 module.exports = {
+  basePath: '/rsd',
   images: {
     // Allow loading images from hifis.net
     domains: ['hifis.net']
